@@ -1,0 +1,106 @@
+.wrap {
+
+    background-color: #e5dfdf;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: 2px;
+    width: 25%;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #959595;
+}
+
+
+.first-name input,
+.last-name input,
+.username input,
+.password input,
+.birthDate input {
+    margin-left: 9px;
+    color: #000;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #e5dfdf;
+}
+
+.role {
+    color: #000;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.error{
+    color: #b35555;
+        font-size: 13px;
+        margin-top: 5px;
+}
+.password {
+    margin: 0;
+}
+
+.birthDate input {
+    color: #959595;
+}
+
+.register hr {
+    border: 2px solid #959595;
+    width: 100%;
+}
+
+.register {
+    padding: 25px 0 50px 0;
+    margin: 0;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.register-btn {
+    background-color: #1d4d4f;
+    cursor: pointer;
+    width: 100%;
+    padding: 9px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+
+}

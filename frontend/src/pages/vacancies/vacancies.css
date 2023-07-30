@@ -1,0 +1,81 @@
+body {
+    background-color: #e5dfdf;
+}
+
+.header {
+    background-color: #6ba8a9;
+}
+
+.Vacancies-wrap {
+    background-color: #357376;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    max-width: 954px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.Vacancies-header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 23px 43px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.Vacancies-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.Vacancies-header-info {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.Vacancies-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px;
+}
+
+.Vacancies-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.block-info {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.block-info button{
+    margin-left: 20px;
+}
+.apply {
+    background-color: #1d4d4f;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 165px;
+    text-align: center;
+    color: #fff;
+    margin-top: 27px;
+    padding: 7px 26px;
+}

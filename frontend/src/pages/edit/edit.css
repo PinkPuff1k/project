@@ -1,0 +1,114 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.edit-wrap {
+    background-color: #357376;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    max-width: 954px;
+    margin-top: 39px;
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.edit-header {
+    background-color: #fff;
+    display: flex;
+    padding: 23px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.edit-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.edit-info {
+    display: flex;
+    width: 94%;
+    padding: 32px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.edit-info input {
+    height: 46px;
+    border-radius: 5px;
+    width: 272px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.edit-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-info label {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.change-photo-btn,
+.save-btn {
+    background-color: #1d4d4f;
+    cursor: pointer;
+    border: 2px solid#fff;
+    color: #fff;
+    text-align: center;
+    width: 177px;
+    height: 46px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.change-photo-btn input {
+    opacity: 0;
+}
+
+.save-btn {
+    padding: 0;
+    margin-top: 52px;
+    background-color: #1d4d4f;
+}
+
+@media (max-width: 768px) {
+    .edit-wrap {
+        width: 75%;
+    }
+
+    .edit-title {
+        font-size: 20px;
+    }
+
+    .edit-info {
+        justify-content: space-between;
+    }
+
+    .edit-info input {
+        height: 46px;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+
+    .edit-info label {
+        font-size: 16px;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+
+   
+
+}

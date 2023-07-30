@@ -1,0 +1,336 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.createResume-wrap {
+    background-color: #357376;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    max-width: 954px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.createResume-header {
+    background-color: #fff;
+    display: flex;
+    padding: 23px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.createResume-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.createResume-info {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    padding: 32px;
+}
+
+.createResume-block,
+.createResume-block2 {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+.createResume-firstName-title,
+.createResume-lastName-title,
+.createResume-birthDate-title {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 50%;
+    padding-bottom: 24px;
+}
+
+.createResume-email-title,
+.createResume-tel-title {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.createResume-inputs {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.createResume-inputs2 {
+    margin-top: 71px;
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.createResume-birthDate {
+    width: 100%;
+    margin-top: 71px;
+}
+
+.createResume-birthDate input,
+.createResume-firstName input,
+.createResume-lastName input,
+.createResume-tel input,
+.createResume-email input {
+    height: 46px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.createResume-avatar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: end;
+}
+
+.createResume-img {
+    height: 177px;
+    border-radius: 50%;
+}
+
+.createResume-inputDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.createResume-inputDate input {
+    height: 46px;
+    border-radius: 5px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+
+.add-photo-btn,
+.createResume-create-btn {
+    background-color: #1d4d4f;
+    cursor: pointer;
+    border: 2px solid#fff;
+    color: #fff;
+    text-align: center;
+    width: 177px;
+    height: 46px;
+    padding: 13px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.add-photo-btn {
+    margin-top: 28px;
+}
+
+.add-photo-btn input {
+    opacity: 0;
+}
+
+
+.createResume-position-title,
+.createResume-personalInfo-title {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 56%;
+    margin-top: 71px;
+
+}
+
+.createResume-position-title,
+.createResume-personalInfo-title {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+.createResume-position {
+    height: 46px;
+    border-radius: 5px;
+    margin-top: 24px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.createResume-personalInfo {
+    border-radius: 5px;
+    margin-top: 24px;
+    height: 100px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.createResume-create-btn {
+    background-color: #1d4d4f;
+    padding: 0;
+    margin-top: 32px;
+
+}
+
+.error {
+    color: #fff;
+    text-shadow: 1px 0 1px #b35555,
+        0 1px 1px #b35555,
+        -1px 0 1px #b35555,
+        0 -1px 1px #b35555;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .createResume-wrap {
+        width: 75%;
+    }
+
+    .createResume-title {
+        font-size: 20px;
+    }
+
+    .createResume-info {
+        padding: 20px;
+    }
+
+
+
+
+    .createResume-firstName,
+    .createResume-lastName,
+    .createResume-birthDate {
+        font-size: 16px;
+        color: #fff;
+        margin-right: 50%;
+        padding-bottom: 24px;
+    }
+
+    .createResume-inputName {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .inputLastName {
+        margin-right: 11px;
+    }
+
+    .createResume-inputName input {
+        height: 46px;
+        border-radius: 5px;
+        padding-left: 10px;
+        width: 200px;
+    }
+
+    .createResume-birthDate {
+        margin-top: 71px;
+    }
+
+    .createResume-img {
+        height: 177px;
+        border-radius: 50%;
+    }
+
+    .createResume-inputDate {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .createResume-inputDate input {
+        height: 46px;
+        border-radius: 5px;
+        width: 200px;
+        padding-left: 10px;
+    }
+
+
+    .add-photo-btn,
+    .createResume-create-btn {
+        background-color: #1d4d4f;
+        cursor: pointer;
+        border: 2px solid#fff;
+        color: #fff;
+        text-align: center;
+        width: 177px;
+        height: 46px;
+        padding: 13px 0;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    .add-photo-btn input {
+        opacity: 0;
+    }
+
+    .createResume-block2,
+    .createResume-position-title,
+    .createResume-personalInfo-title {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 56%;
+        margin-top: 71px;
+
+    }
+
+    .createResume-tel,
+    .createResume-email,
+    .createResume-position-title,
+    .createResume-personalInfo-title {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .createResume-block3 {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 58%;
+        padding-top: 24px;
+    }
+
+    .createResume-block3 input {
+        height: 46px;
+        border-radius: 5px;
+        width: 200px;
+        padding-left: 10px;
+    }
+
+    .createResume-position {
+        height: 46px;
+        border-radius: 5px;
+        margin-top: 24px;
+        padding-left: 10px;
+    }
+
+    .createResume-personalInfo {
+        border-radius: 5px;
+        margin-top: 24px;
+        height: 100px;
+        padding-left: 10px;
+        /* width: 200px; */
+    }
+
+    .createResume-create-btn {
+        background-color: #1d4d4f;
+        padding: 0;
+        margin-top: 32px;
+
+    }
+}
